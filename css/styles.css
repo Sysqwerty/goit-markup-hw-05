@@ -408,6 +408,7 @@ textarea {
   align-items: center;
   margin-bottom: 24px;
   position: relative;
+  cursor: pointer;
 }
 
 .modal-check-label::before {
@@ -418,7 +419,6 @@ textarea {
   margin-right: 8px;
   border: 1px solid var(--navy-blue-modal);
   border-radius: 2px;
-  cursor: pointer;
   transition: background-color var(--animation), border-color var(--animation);
 }
 
